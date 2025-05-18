@@ -7,8 +7,8 @@
         public override string Name => "RoundMVP";
         public override string Prefix => "RoundMVP";
         public override string Author => "@misfiy Modified by Antonionfo";
-        public override Version Version => new(1, 3, 0);
-        public override Version RequiredExiledVersion => new(9, 2, 1);
+        public override Version Version => new(1, 4, 0);
+        public override Version RequiredExiledVersion => new(9, 6, 0);
         public static Plugin Instance;
         private Handler handler;
 
